@@ -14,6 +14,8 @@
 		C96F34D61BDE73C6002BC975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96F34D41BDE73C6002BC975 /* LaunchScreen.storyboard */; };
 		C96F34E11BDE73C6002BC975 /* practica02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F34E01BDE73C6002BC975 /* practica02Tests.swift */; };
 		C96F34EC1BDE73C6002BC975 /* practica02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F34EB1BDE73C6002BC975 /* practica02UITests.swift */; };
+		C98553C11BE00D42004B5B6D /* Mario_Pipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98553BF1BE00D42004B5B6D /* Mario_Pipe.mp3 */; settings = {ASSET_TAGS = (); }; };
+		C98553C21BE00D42004B5B6D /* Mario_Power_Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98553C01BE00D42004B5B6D /* Mario_Power_Up.mp3 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C96F34E71BDE73C6002BC975 /* practica02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96F34EB1BDE73C6002BC975 /* practica02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica02UITests.swift; sourceTree = "<group>"; };
 		C96F34ED1BDE73C6002BC975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98553BF1BE00D42004B5B6D /* Mario_Pipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mario_Pipe.mp3; path = "../../../../../Downloads/Archivo comprimido/Mario_Pipe.mp3"; sourceTree = "<group>"; };
+		C98553C01BE00D42004B5B6D /* Mario_Power_Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mario_Power_Up.mp3; path = "../../../../../Downloads/Archivo comprimido/Mario_Power_Up.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				C96F34CB1BDE73C6002BC975 /* AppDelegate.swift */,
 				C96F34CD1BDE73C6002BC975 /* ViewController.swift */,
 				C96F34CF1BDE73C6002BC975 /* Main.storyboard */,
+				C98553BF1BE00D42004B5B6D /* Mario_Pipe.mp3 */,
+				C98553C01BE00D42004B5B6D /* Mario_Power_Up.mp3 */,
 				C96F34D21BDE73C6002BC975 /* Assets.xcassets */,
 				C96F34D41BDE73C6002BC975 /* LaunchScreen.storyboard */,
 				C96F34D71BDE73C6002BC975 /* Info.plist */,
@@ -229,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C96F34D61BDE73C6002BC975 /* LaunchScreen.storyboard in Resources */,
+				C98553C21BE00D42004B5B6D /* Mario_Power_Up.mp3 in Resources */,
+				C98553C11BE00D42004B5B6D /* Mario_Pipe.mp3 in Resources */,
 				C96F34D31BDE73C6002BC975 /* Assets.xcassets in Resources */,
 				C96F34D11BDE73C6002BC975 /* Main.storyboard in Resources */,
 			);
@@ -481,6 +489,7 @@
 				C96F34F21BDE73C6002BC975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C96F34F31BDE73C6002BC975 /* Build configuration list for PBXNativeTarget "practica02Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +498,7 @@
 				C96F34F51BDE73C6002BC975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C96F34F61BDE73C6002BC975 /* Build configuration list for PBXNativeTarget "practica02UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +507,7 @@
 				C96F34F81BDE73C6002BC975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
